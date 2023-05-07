@@ -1,0 +1,41 @@
+{
+    "bookshelf:load_conditions": [
+        {
+          "type": "bookshelf:item_exists",
+          "values": [
+            "deep_aether:tall_aether_cattails"
+          ]
+        }
+      ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "deep_aether:tall_aether_cattails"
+    },
+    "categories": [
+      "aether_dirt",
+      "aether_grass"
+    ],
+    "growthTicks": 1200,
+    "display": [
+      {
+        "block": "deep_aether:tall_aether_cattails",
+        "properties": {
+          "half": "lower"
+        }
+      },
+      {
+        "block": "deep_aether:tall_aether_cattails",
+        "properties": {
+          "half": "upper"
+        }
+      }
+    ],
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "deep_aether:tall_aether_cattails"
+        }
+      }
+    ]
+  }
