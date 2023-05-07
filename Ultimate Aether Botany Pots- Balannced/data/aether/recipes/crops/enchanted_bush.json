@@ -1,0 +1,53 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "aether:enchanted_berry"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "aether:enchanted_berry"
+    },
+    "categories": [
+      "aether_farmland"
+    ],
+    "growthTicks": 2400,
+    "display": {
+      "block": "aether:berry_bush_stem"
+    },
+    "drops": [
+      {
+        "chance": 1.00,
+        "output": {
+          "item": "aether:enchanted_berry"
+        },
+        "minRolls": 1,
+        "maxRolls": 4
+      },
+      {
+        "chance": 0.10,
+        "output": {
+          "item": "aether:enchanted_berry"
+        },
+        "minRolls": 1,
+        "maxRolls": 3
+      },
+      {
+        "chance": 0.15,
+        "output": {
+          "item": "aether:berry_bush_stem"
+        }
+      },
+      {
+        "chance": 0.01,
+        "output": {
+          "item": "aether:berry_bush"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      }
+    ]
+  }

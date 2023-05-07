@@ -1,0 +1,29 @@
+{
+    "bookshelf:load_conditions": [
+        {
+          "type": "bookshelf:item_exists",
+          "values": [
+            "deep_aether:aerlavender"
+          ]
+        }
+      ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "deep_aether:aerlavender"
+    },
+    "categories":["aether_grass", "aether_dirt"],
+    "growthTicks": 1200,
+    "display": {
+      "block": "deep_aether:aerlavender"
+    },
+    "drops": [
+      {
+        "chance": 0.1,
+        "output": {
+          "item": "deep_aether:aerlavender"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      }
+    ]
+  }

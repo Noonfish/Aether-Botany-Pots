@@ -1,0 +1,29 @@
+{
+    "bookshelf:load_conditions": [
+        {
+          "type": "bookshelf:item_exists",
+          "values": [
+            "deep_aether:goldenleaf_berries"
+          ]
+        }
+      ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "deep_aether:goldenleaf_berries"
+    },
+    "categories":["aether_grass"],
+    "growthTicks": 1200,
+    "display": {
+      "block": "deep_aether:golden_vines_plant"
+    },
+    "drops": [
+      {
+        "chance": 0.1,
+        "output": {
+          "item": "deep_aether:goldenleaf_berries"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      }
+    ]
+  }

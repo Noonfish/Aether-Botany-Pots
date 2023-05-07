@@ -1,0 +1,29 @@
+{
+    "bookshelf:load_conditions": [
+      {
+        "type": "bookshelf:item_exists",
+        "values": [
+          "aether:aechor_petal"
+        ]
+      }
+    ],
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "aether:aechor_petal"
+    },
+    "categories":["aether_grass"],
+    "growthTicks": 3400,
+    "display": {
+      "block": "aether:purple_flower"
+    },
+    "drops": [
+      {
+        "chance": 0.1,
+        "output": {
+          "item": "aether:aechor_petal"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+      }
+    ]
+  }

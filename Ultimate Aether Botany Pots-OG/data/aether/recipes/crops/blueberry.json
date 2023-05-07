@@ -1,0 +1,49 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+      "item": "aether:berry_bush_stem"
+    },
+    "categories":["aether_dirt", "aether_farmland"],
+    "growthTicks": 3,
+    "growthModifier": 1.2,
+    "display": {
+      "block": "aether:berry_bush_stem",
+      "properties": {
+        "age": 7
+      }
+    },
+    "results": [
+      {
+        "chance": 0.75,
+        "output": {
+          "item": "aether:blue_berry"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      },
+      {
+        "chance": 0.05,
+        "output": {
+          "item": "aether:blue_berry"
+        },
+        "minRolls": 1,
+        "maxRolls": 3
+      },
+      {
+        "chance": 0.03,
+        "output": {
+          "item": "aether:blue_berry"
+        },
+        "minRolls": 1,
+        "maxRolls": 4
+      },
+      {
+        "chance": 0.01,
+        "output": {
+          "item": "aether:berry_bush"
+        },
+        "minRolls": 1,
+        "maxRolls": 2
+      }
+    ]
+  }

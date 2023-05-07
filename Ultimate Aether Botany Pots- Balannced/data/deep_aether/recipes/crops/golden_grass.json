@@ -1,0 +1,45 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "deep_aether:medium_golden_grass"
+      ]
+    }
+  ],  
+  "type": "botanypots:crop",
+    "seed": {
+      "item": "deep_aether:medium_golden_grass"
+    },
+    "categories":["aether_grass"],
+    "growthTicks": 1000,
+    "display": {
+      "block": "deep_aether:medium_golden_grass"
+    },
+    "drops": [
+      {
+        "chance": 0.1,
+        "output": {
+          "item": "deep_aether:medium_golden_grass"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      },
+      {
+        "chance": 0.01,
+        "output": {
+          "item": "deep_aether:golden_grass_seeds"
+        },
+        "minRolls": 1,
+        "maxRolls": 4
+      },
+      {
+        "chance": 0.01,
+        "output": {
+          "item": "aether:ambrosium_shard"
+        },
+        "minRolls": 1,
+        "maxRolls": 1
+      }
+    ]
+  }
