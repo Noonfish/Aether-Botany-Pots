@@ -1,6 +1,8 @@
 # Aether-Botany-Pots
 THIS FILE LISTS SHIT BETWEEN THE DATA PACKS
 IF SOMETHING IS NOT LISTED ASSUME IT IS TAKEN FROM THE FIRST TWO
+    
+    
     aether botany pots og(NEEDED):
         Dirt:
             -Aether Dirt(x1)
